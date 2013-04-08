@@ -42,11 +42,11 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>2</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tabBarbarian">
     <attribute name="title">
-     <string>Barbarin</string>
+     <string>Barbarian</string>
     </attribute>
     <widget class="QSpinBox" name="spinBar">
      <property name="geometry">

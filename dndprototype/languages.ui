@@ -133,7 +133,7 @@
      <string/>
     </property>
     <property name="checkState">
-     <enum>Checked</enum>
+     <enum>Unchecked</enum>
     </property>
    </item>
    <item row="2" column="0">

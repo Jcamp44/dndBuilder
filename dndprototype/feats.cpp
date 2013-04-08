@@ -18,6 +18,13 @@ Feats::~Feats()
 
 void Feats::on_btnBack_clicked()
 {
+    _main->newChar->setAgile(ui->spinStr->text().toInt());
+    _main->newChar->setAlertness(ui->spinDex->text().toInt());
+    _main->newChar->setAthletic(ui->spinCon->text().toInt());
+    _main->newChar->setCleave(ui->spinInt->text().toInt());
+    _main->newChar->setDiehard(ui->spinWiz->text().toInt());
+    _main->newChar->setDodge(ui->spinCha->text().toInt());
+
     Skills* s = new Skills();
     _main->setCentralWidget(s);
     s->show();
@@ -26,6 +33,13 @@ void Feats::on_btnBack_clicked()
 
 void Feats::on_btnNext_clicked()
 {
+    _main->newChar->setAgile(ui->spinStr->text().toInt());
+    _main->newChar->setAlertness(ui->spinDex->text().toInt());
+    _main->newChar->setAthletic(ui->spinCon->text().toInt());
+    _main->newChar->setCleave(ui->spinInt->text().toInt());
+    _main->newChar->setDiehard(ui->spinWiz->text().toInt());
+    _main->newChar->setDodge(ui->spinCha->text().toInt());
+
     Equipment* s = new Equipment();
     _main->setCentralWidget(s);
     s->show();
@@ -34,6 +48,13 @@ void Feats::on_btnNext_clicked()
 
 void Feats::setMainWindow(MainWindow* window){
     _main = window;
+
+    ui->spinStr->setValue(_main->newChar->getAgile());
+    ui->spinDex->setValue(_main->newChar->getAlertness());
+    ui->spinCon->setValue(_main->newChar->getAthletic());
+    ui->spinInt->setValue(_main->newChar->getCleave());
+    ui->spinWiz->setValue(_main->newChar->getDiehard());
+    ui->spinCha->setValue(_main->newChar->getDodge());
 }
 
 void Feats::on_btnAboutClasses_clicked()

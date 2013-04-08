@@ -20,6 +20,7 @@ public:
     
 private slots:
     void on_btnNew_clicked();
+    void on_btnLoad_clicked();
 
 private:
     Ui::IntroScreen *ui;

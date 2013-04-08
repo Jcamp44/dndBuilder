@@ -35,12 +35,58 @@ AlginmentReligion::~AlginmentReligion()
 
 void AlginmentReligion::setMainWindow(MainWindow* window){
     _main = window;
+
+    if (_main->newChar->getAlignment()=="Chaotic Evil"){
+        ui->cboxAlignment->setCurrentIndex(0);
+    }
+    if (_main->newChar->getAlignment()=="Lawful Evil"){
+        ui->cboxAlignment->setCurrentIndex(1);
+    }
+    if (_main->newChar->getAlignment()=="Neutral Evil"){
+        ui->cboxAlignment->setCurrentIndex(2);
+    }
+    if (_main->newChar->getAlignment()=="Lawful Neutral"){
+        ui->cboxAlignment->setCurrentIndex(3);
+    }
+    if (_main->newChar->getAlignment()=="True Neutral"){
+        ui->cboxAlignment->setCurrentIndex(4);
+    }
+    if (_main->newChar->getAlignment()=="Chaotic Neutral"){
+        ui->cboxAlignment->setCurrentIndex(5);
+    }
+    if (_main->newChar->getAlignment()=="Neutral Good"){
+        ui->cboxAlignment->setCurrentIndex(6);
+    }
+    if (_main->newChar->getAlignment()=="Lawful Good"){
+        ui->cboxAlignment->setCurrentIndex(7);
+    }
+    if (_main->newChar->getAlignment()=="Chaotic Good"){
+        ui->cboxAlignment->setCurrentIndex(8);
+    }
+    if (_main->newChar->getReligion()=="Gruumsh"){
+        ui->cboxReligion->setCurrentIndex(0);
+    }
+    if (_main->newChar->getReligion()=="Heironeus"){
+        ui->cboxReligion->setCurrentIndex(1);
+    }
+    if (_main->newChar->getReligion()=="Fharlanghn"){
+        ui->cboxReligion->setCurrentIndex(2);
+    }
+    if (_main->newChar->getReligion()=="Garl Glittergold"){
+        ui->cboxReligion->setCurrentIndex(3);
+    }
+    if (_main->newChar->getReligion()=="Nerull"){
+        ui->cboxReligion->setCurrentIndex(4);
+    }
 }
 
 
 
 void AlginmentReligion::on_btnback_clicked()
 {
+    _main->newChar->setAlignment(ui->cboxAlignment->currentText());
+    _main->newChar->setReligion(ui->cboxReligion->currentText());
+
     ClassSelect* select = new ClassSelect();
     _main->setCentralWidget(select);
     select->show();
@@ -49,6 +95,9 @@ void AlginmentReligion::on_btnback_clicked()
 
 void AlginmentReligion::on_btnNext_clicked()
 {
+    _main->newChar->setAlignment(ui->cboxAlignment->currentText());
+    _main->newChar->setReligion(ui->cboxReligion->currentText());
+
     Abilities* a = new Abilities();
     _main->setCentralWidget(a);
     a->show();
@@ -70,25 +119,25 @@ void AlginmentReligion::on_btnAboutAlignment_clicked()
 void AlginmentReligion::on_cboxAlignment_currentIndexChanged(const QString &arg1)
 {
     if(arg1.compare("Chaotic Evil")==0){
-        ui->textAlignment->setText("Evil for evil’s sake.  There is no overreaching plan, no regard for rules or customs.  You just want to destroy, consume, and kill. ");
+        ui->textAlignment->setText("Evil for evil's sake.  There is no overreaching plan, no regard for rules or customs.  You just want to destroy, consume, and kill. ");
     }
     else if(arg1.compare("Lawful Evil")==0){
         ui->textAlignment->setText("Your desires to destroy and kill are kept in check by the law.  You resort to manipulation and loopholes to deprive others of a good life, or to commit acts normally considered atrocious, but technically legal.");
     }
     else if(arg1.compare("Neutral Evil")==0){
-        ui->textAlignment->setText("You don’t go out of your way to be bad, but when all is said and done, if someone’s in a weakened state and needs your aid, maybe they have some gold left on them.");
+        ui->textAlignment->setText("You don't go out of your way to be bad, but when all is said and done, if someone's in a weakened state and needs your aid, maybe they have some gold left on them.");
     }
     else if(arg1.compare("Lawful Neutral")==0){
-        ui->textAlignment->setText("You are orderly.  You don’t like to disturb anything, and you try to keep in line with the rules of your society.  However, while still following the rules, you may perform acts considered either good or evil.");
+        ui->textAlignment->setText("You are orderly.  You don't like to disturb anything, and you try to keep in line with the rules of your society.  However, while still following the rules, you may perform acts considered either good or evil.");
     }
     else if(arg1.compare("True Neutral")==0){
-        ui->textAlignment->setText("You’re not looking to take sides.  You consider yourself more of an opportunist; you will take the offer that makes the most sense to you.  Your motivations are your own, and you have no stake in the consideration of good or evil.  Only what you want to do as it relates to your personal values.");
+        ui->textAlignment->setText("You're not looking to take sides.  You consider yourself more of an opportunist; you will take the offer that makes the most sense to you.  Your motivations are your own, and you have no stake in the consideration of good or evil.  Only what you want to do as it relates to your personal values.");
     }
     else if(arg1.compare("Chaotic Neutral")==0){
-        ui->textAlignment->setText("You’re going to do whatever you want.  Rules be damned.");
+        ui->textAlignment->setText("You're going to do whatever you want.  Rules be damned.");
     }
     else if(arg1.compare("Neutral Good")==0){
-        ui->textAlignment->setText("You don’t go out of your way to do good deeds, but should the chance come across you, you’ll help out someone in need.");
+        ui->textAlignment->setText("You don't go out of your way to do good deeds, but should the chance come across you, you'll help out someone in need.");
     }
     else if(arg1.compare("Lawful Good")==0){
         ui->textAlignment->setText("Laws exist for a reason, and following them is the most guaranteed way to procure a good, just, and fulfilling life.  You will always do well by the rule of law, and helping others is your absolute goal.");

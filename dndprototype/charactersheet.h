@@ -20,6 +20,8 @@ public:
     
 private slots:
     void on_btnBack_clicked();
+    void on_loadBtn_clicked();
+    void on_clearBtn_clicked();
 
 private:
     Ui::CharacterSheet *ui;

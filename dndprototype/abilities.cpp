@@ -24,6 +24,13 @@ void Abilities::on_btnAboutClasses_clicked()
 
 void Abilities::on_btnBack_clicked()
 {
+    _main->newChar->setStr(ui->spinStr->text().toInt());
+    _main->newChar->setIntel(ui->spinInt->text().toInt());
+    _main->newChar->setDex(ui->spinDex->text().toInt());
+    _main->newChar->setWis(ui->spinWiz->text().toInt());
+    _main->newChar->setCon(ui->spinCon->text().toInt());
+    _main->newChar->setCha(ui->spinCha->text().toInt());
+
     AlginmentReligion* ar = new AlginmentReligion();
     _main->setCentralWidget(ar);
     ar->show();
@@ -32,6 +39,13 @@ void Abilities::on_btnBack_clicked()
 
 void Abilities::on_btnNext_clicked()
 {
+    _main->newChar->setStr(ui->spinStr->text().toInt());
+    _main->newChar->setIntel(ui->spinInt->text().toInt());
+    _main->newChar->setDex(ui->spinDex->text().toInt());
+    _main->newChar->setWis(ui->spinWiz->text().toInt());
+    _main->newChar->setCon(ui->spinCon->text().toInt());
+    _main->newChar->setCha(ui->spinCha->text().toInt());
+
     Skills* s = new Skills();
     _main->setCentralWidget(s);
     s->show();
@@ -40,6 +54,13 @@ void Abilities::on_btnNext_clicked()
 
 void Abilities::setMainWindow(MainWindow* window){
     _main = window;
+
+    ui->spinStr->setValue(_main->newChar->getStr());
+    ui->spinDex->setValue(_main->newChar->getDex());
+    ui->spinInt->setValue(_main->newChar->getIntel());
+    ui->spinCon->setValue(_main->newChar->getCon());
+    ui->spinCha->setValue(_main->newChar->getCha());
+    ui->spinWiz->setValue(_main->newChar->getWis());
 }
 
 void Abilities::on_btnRoll_clicked(){

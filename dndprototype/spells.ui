@@ -49,7 +49,7 @@
     </rect>
    </property>
    <property name="currentIndex">
-    <number>8</number>
+    <number>0</number>
    </property>
    <widget class="QWidget" name="tabStr">
     <attribute name="title">
@@ -64,36 +64,6 @@
        <height>271</height>
       </rect>
      </property>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <row>
       <property name="text">
        <string/>
@@ -115,84 +85,6 @@
       </property>
      </item>
      <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
       <property name="text">
        <string/>
       </property>
@@ -253,36 +145,6 @@
        <string/>
       </property>
      </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <column>
       <property name="text">
        <string>Name</string>
@@ -295,88 +157,10 @@
      </column>
      <item row="0" column="0">
       <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
        <string>Alarm</string>
       </property>
      </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
+     <item row="0" column="1">
       <property name="text">
        <string/>
       </property>
@@ -417,36 +201,6 @@
        <string/>
       </property>
      </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <column>
       <property name="text">
        <string>Name</string>
@@ -459,88 +213,10 @@
      </column>
      <item row="0" column="0">
       <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
        <string>Shield</string>
       </property>
      </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
+     <item row="0" column="1">
       <property name="text">
        <string/>
       </property>
@@ -591,36 +267,6 @@
        <string/>
       </property>
      </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <column>
       <property name="text">
        <string>Name</string>
@@ -633,88 +279,10 @@
      </column>
      <item row="0" column="0">
       <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
        <string>Grease</string>
       </property>
      </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
+     <item row="0" column="1">
       <property name="text">
        <string/>
       </property>
@@ -775,36 +343,6 @@
        <string/>
       </property>
      </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <column>
       <property name="text">
        <string>Name</string>
@@ -817,88 +355,10 @@
      </column>
      <item row="0" column="0">
       <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
        <string>Sleep</string>
       </property>
      </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
+     <item row="0" column="1">
       <property name="text">
        <string/>
       </property>
@@ -939,36 +399,6 @@
        <string/>
       </property>
      </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <column>
       <property name="text">
        <string>Name</string>
@@ -981,88 +411,10 @@
      </column>
      <item row="0" column="0">
       <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
        <string>Silent Image</string>
       </property>
      </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
+     <item row="0" column="1">
       <property name="text">
        <string/>
       </property>
@@ -1113,36 +465,6 @@
        <string/>
       </property>
      </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
      <column>
       <property name="text">
        <string>Name</string>
@@ -1155,88 +477,10 @@
      </column>
      <item row="0" column="0">
       <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
        <string>Chill Touch</string>
       </property>
      </item>
-     <item row="6" column="1">
+     <item row="0" column="1">
       <property name="text">
        <string/>
       </property>
@@ -1259,354 +503,6 @@
      </property>
     </widget>
     <widget class="QTextBrowser" name="textBrowser_7">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>30</y>
-       <width>321</width>
-       <height>251</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="tab_3">
-    <attribute name="title">
-     <string>Lvl 8</string>
-    </attribute>
-    <widget class="QTableWidget" name="tableWidget_8">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>10</y>
-       <width>211</width>
-       <height>271</height>
-      </rect>
-     </property>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <column>
-      <property name="text">
-       <string>Name</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Learned</string>
-      </property>
-     </column>
-     <item row="0" column="0">
-      <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>10</y>
-       <width>121</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>About Select Spell</string>
-     </property>
-    </widget>
-    <widget class="QTextBrowser" name="textBrowser_8">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>30</y>
-       <width>321</width>
-       <height>251</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-   <widget class="QWidget" name="tab_4">
-    <attribute name="title">
-     <string>Lvl 9</string>
-    </attribute>
-    <widget class="QTableWidget" name="tableWidget_9">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>10</y>
-       <width>211</width>
-       <height>271</height>
-      </rect>
-     </property>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <row>
-      <property name="text">
-       <string/>
-      </property>
-     </row>
-     <column>
-      <property name="text">
-       <string>Name</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Learned</string>
-      </property>
-     </column>
-     <item row="0" column="0">
-      <property name="text">
-       <string>Jump</string>
-      </property>
-     </item>
-     <item row="0" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="1" column="0">
-      <property name="text">
-       <string>Alarm</string>
-      </property>
-     </item>
-     <item row="1" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="2" column="0">
-      <property name="text">
-       <string>Shield</string>
-      </property>
-     </item>
-     <item row="2" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="3" column="0">
-      <property name="text">
-       <string>Grease</string>
-      </property>
-     </item>
-     <item row="3" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="4" column="0">
-      <property name="text">
-       <string>Sleep</string>
-      </property>
-     </item>
-     <item row="4" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="5" column="0">
-      <property name="text">
-       <string>Silent Image</string>
-      </property>
-     </item>
-     <item row="5" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-     <item row="6" column="0">
-      <property name="text">
-       <string>Chill Touch</string>
-      </property>
-     </item>
-     <item row="6" column="1">
-      <property name="text">
-       <string/>
-      </property>
-      <property name="checkState">
-       <enum>Unchecked</enum>
-      </property>
-     </item>
-    </widget>
-    <widget class="QLabel" name="label_11">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>10</y>
-       <width>121</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>About Select Spell</string>
-     </property>
-    </widget>
-    <widget class="QTextBrowser" name="textBrowser_9">
      <property name="geometry">
       <rect>
        <x>240</x>

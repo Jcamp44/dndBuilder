@@ -20,6 +20,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    newChar = new character();
 
     this->setWindowTitle("Dungeon and Dragons Character Builder");
 

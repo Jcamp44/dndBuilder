@@ -3,6 +3,7 @@
 #include "equipment.h"
 #include "spells.h"
 #include "languagehelpdialog.h"
+#include "feats.h"
 
 Languages::Languages(QWidget *parent) :
     QWidget(parent),
@@ -36,10 +37,10 @@ void Languages::on_btnBack_clicked()
         _main->newChar->setOrc(true);
     }
 
-    Equipment* s = new Equipment();
-    _main->setCentralWidget(s);
-    s->show();
-    s->setMainWindow(_main);
+    Feats* a = new Feats();
+    _main->setCentralWidget(a);
+    a->show();
+    a->setMainWindow(_main);
 }
 
 void Languages::on_btnNext_clicked()
@@ -92,4 +93,20 @@ void Languages::on_btnAboutClasses_clicked()
 {
     LanguageHelpDialog* Dialog = new LanguageHelpDialog();
     Dialog->show();
+}
+
+void Languages::on_tableWidget_5_cellClicked(int row, int column)
+{
+    switch (row){
+    case 0: ui->textBrowser->setText("Characters who know Abyssal have the ability to speak with and understand Demons.");
+        break;
+    case 1: ui->textBrowser->setText("Common is the most widely spoken language in most campaigns. The ability to speak Common will allow you character to communicate in many situations.");
+        break;
+    case 2: ui->textBrowser->setText("Characters who know Giant have the ability to speak with and understand Giants.");
+        break;
+    case 3: ui->textBrowser->setText("Characters who know Orc have the ability to speak with and understand Orcs, and many other races as Orc is a widespread dialect.");
+        break;
+    default: ui->textBrowser->setText("");
+    }
+
 }

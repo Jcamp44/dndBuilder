@@ -24,7 +24,7 @@ void CharacterSheet::setMainWindow(MainWindow* window){
 
     ui->Barblvl->setText(QString::number(_main->newChar->getBarbarian()));
     ui->Wizlvl->setText(QString::number(_main->newChar->getWizard()));
-    ui->Pallvl->setText(QString::number(_main->newChar->getWizard()));
+    ui->Pallvl->setText(QString::number(_main->newChar->getPaladin()));
 
     ui->str->setText(QString::number(_main->newChar->getStr()));
     ui->dex->setText(QString::number(_main->newChar->getDex()));

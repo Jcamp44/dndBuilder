@@ -117,8 +117,8 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>410</width>
-      <height>472</height>
+      <width>408</width>
+      <height>385</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -129,44 +129,11 @@
        </property>
       </widget>
      </item>
-     <item row="8" column="0" colspan="2">
-      <widget class="QLabel" name="label_12">
-       <property name="text">
-        <string>Wisdom:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="10" rowspan="7">
-      <widget class="QTextEdit" name="feats"/>
-     </item>
-     <item row="7" column="0" colspan="2">
-      <widget class="QLabel" name="label_11">
-       <property name="text">
-        <string>Intelligence:</string>
-       </property>
-      </widget>
-     </item>
      <item row="2" column="6" colspan="2">
       <widget class="QLineEdit" name="Wizlvl"/>
      </item>
-     <item row="3" column="6" colspan="2">
-      <widget class="QLineEdit" name="Pallvl"/>
-     </item>
-     <item row="9" column="0" colspan="2">
-      <widget class="QLabel" name="label_13">
-       <property name="text">
-        <string>Charisma:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="2" colspan="2">
-      <widget class="QLineEdit" name="dex"/>
-     </item>
-     <item row="3" column="10">
-      <widget class="QLineEdit" name="alignment"/>
-     </item>
-     <item row="0" column="9" colspan="2">
-      <widget class="QLineEdit" name="race"/>
+     <item row="8" column="2" colspan="2">
+      <widget class="QLineEdit" name="wis"/>
      </item>
      <item row="10" column="0" colspan="2">
       <widget class="QLabel" name="label_16">
@@ -175,48 +142,12 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="5">
-      <widget class="QLabel" name="label_5">
+     <item row="8" column="0" colspan="2">
+      <widget class="QLabel" name="label_12">
        <property name="text">
-        <string>Level:</string>
+        <string>Wisdom:</string>
        </property>
       </widget>
-     </item>
-     <item row="1" column="8" rowspan="2" colspan="2">
-      <widget class="QLabel" name="label_7">
-       <property name="text">
-        <string>Religion:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="2" colspan="2">
-      <widget class="QLineEdit" name="con"/>
-     </item>
-     <item row="9" column="2" colspan="2">
-      <widget class="QLineEdit" name="cha"/>
-     </item>
-     <item row="1" column="6" colspan="2">
-      <widget class="QLineEdit" name="Barblvl"/>
-     </item>
-     <item row="12" column="0" colspan="2">
-      <widget class="QLabel" name="label_18">
-       <property name="text">
-        <string>Equipment:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0" colspan="2">
-      <widget class="QLabel" name="label_8">
-       <property name="text">
-        <string>Strength:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="2" colspan="2">
-      <widget class="QLineEdit" name="wis"/>
-     </item>
-     <item row="13" column="0" colspan="11">
-      <widget class="QTextEdit" name="textEdit_5"/>
      </item>
      <item row="11" column="0" colspan="4">
       <widget class="QTextEdit" name="languages"/>
@@ -245,6 +176,65 @@
        </property>
       </widget>
      </item>
+     <item row="1" column="8" rowspan="2" colspan="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Religion:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2" colspan="2">
+      <widget class="QLineEdit" name="con"/>
+     </item>
+     <item row="5" column="2" colspan="2">
+      <widget class="QLineEdit" name="dex"/>
+     </item>
+     <item row="7" column="0" colspan="2">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Intelligence:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2" colspan="2">
+      <widget class="QLineEdit" name="cha"/>
+     </item>
+     <item row="1" column="6" colspan="2">
+      <widget class="QLineEdit" name="Barblvl"/>
+     </item>
+     <item row="3" column="10">
+      <widget class="QLineEdit" name="alignment"/>
+     </item>
+     <item row="3" column="6" colspan="2">
+      <widget class="QLineEdit" name="Pallvl"/>
+     </item>
+     <item row="9" column="0" colspan="2">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Charisma:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="9" colspan="2">
+      <widget class="QLineEdit" name="race"/>
+     </item>
+     <item row="4" column="0" colspan="2">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Strength:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Level:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="10" rowspan="7">
+      <widget class="QTextEdit" name="feats"/>
+     </item>
      <item row="6" column="0" colspan="2">
       <widget class="QLabel" name="label_10">
        <property name="text">
@@ -255,6 +245,13 @@
      <item row="5" column="4" rowspan="7" colspan="3">
       <widget class="QTextEdit" name="skills"/>
      </item>
+     <item row="4" column="10">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Feats:</string>
+       </property>
+      </widget>
+     </item>
      <item row="7" column="2" colspan="2">
       <widget class="QLineEdit" name="intel"/>
      </item>
@@ -262,13 +259,6 @@
       <widget class="QLineEdit" name="lineEdit_14">
        <property name="text">
         <string>Paladin</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="10">
-      <widget class="QLabel" name="label_17">
-       <property name="text">
-        <string>Feats:</string>
        </property>
       </widget>
      </item>

@@ -3,6 +3,7 @@
 #include "skills.h"
 #include "equipment.h"
 #include "feathelpdialog.h"
+#include "languages.h"
 
 Feats::Feats(QWidget *parent) :
     QWidget(parent),
@@ -40,10 +41,10 @@ void Feats::on_btnNext_clicked()
     _main->newChar->setDiehard(ui->spinWiz->text().toInt());
     _main->newChar->setDodge(ui->spinCha->text().toInt());
 
-    Equipment* s = new Equipment();
-    _main->setCentralWidget(s);
-    s->show();
-    s->setMainWindow(_main);
+    Languages* a = new Languages();
+    _main->setCentralWidget(a);
+    a->show();
+    a->setMainWindow(_main);
 }
 
 void Feats::setMainWindow(MainWindow* window){

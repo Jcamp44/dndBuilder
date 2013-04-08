@@ -28,6 +28,8 @@ private slots:
 
     void on_btnAboutClasses_clicked();
 
+    void on_tableWidget_5_cellClicked(int row, int column);
+
 private:
     Ui::Languages *ui;
     MainWindow* _main;

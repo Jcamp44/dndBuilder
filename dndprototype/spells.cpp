@@ -123,3 +123,41 @@ void Spells::on_btnAboutClasses_clicked()
     SpellHelpDialog* Dialog = new SpellHelpDialog();
     Dialog->show();
 }
+
+void Spells::on_tableWidget_cellClicked(int row, int column)
+{
+    ui->textBrowser->setText("Enables higher jumping. \n The subject gets a +10 enhancement bonus on Jump checks.");
+}
+
+
+void Spells::on_tableWidget_2_cellClicked(int row, int column)
+{
+    ui->textBrowser_2->setText("Let's the caster know when someone is near. \n Alarm sounds a mental or audible alarm each time a creature of Tiny or larger size enters the warded area or touches it.");
+}
+
+void Spells::on_tableWidget_3_cellClicked(int row, int column)
+{
+    ui->textBrowser_3->setText("Protects your from harm. \n Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you.");
+}
+
+void Spells::on_tableWidget_4_cellClicked(int row, int column)
+{
+    ui->textBrowser_4->setText("Can make enemies lose their footing. \n A grease spell covers a solid surface with a layer of slippery grease.");
+}
+
+void Spells::on_tableWidget_5_cellClicked(int row, int column)
+{
+    ui->textBrowser_5->setText("Put your enemies into a slumber. \n A sleep spell causes a magical slumber to come upon 4 Hit Dice of creatures.");
+}
+
+
+
+void Spells::on_tableWidget_6_cellClicked(int row, int column)
+{
+    ui->textBrowser_6->setText("Generate anything you can think of. \n This spell creates the visual illusion of an object, creature, or force, as visualized by you.");
+}
+
+void Spells::on_tableWidget_7_cellClicked(int row, int column)
+{
+    ui->textBrowser_7->setText("Make your hands colder than ice. \n A touch from your hand, which glows with blue energy, disrupts the life force of living creatures.");
+}

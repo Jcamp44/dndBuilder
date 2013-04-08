@@ -133,6 +133,9 @@
    <property name="text">
     <string>Equipment</string>
    </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
   </action>
   <action name="actionLanguage">
    <property name="text">

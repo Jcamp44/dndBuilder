@@ -25,6 +25,20 @@ private slots:
 
     void on_btnAboutClasses_clicked();
 
+    void on_tableWidget_cellClicked(int row, int column);
+
+    void on_tableWidget_2_cellClicked(int row, int column);
+
+    void on_tableWidget_3_cellClicked(int row, int column);
+
+    void on_tableWidget_4_cellClicked(int row, int column);
+
+    void on_tableWidget_5_cellClicked(int row, int column);
+
+    void on_tableWidget_6_cellClicked(int row, int column);
+
+    void on_tableWidget_7_cellClicked(int row, int column);
+
 private:
     Ui::Spells *ui;
     MainWindow* _main;
